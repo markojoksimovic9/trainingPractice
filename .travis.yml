@@ -42,6 +42,6 @@ script:
   - size ./output
   
   - echo "Reached Script Section - Marko CUnit"
-  - gcc hello_functions.c cunit_tests.c -o cunit_democode -lcunit
+  - gcc hello_functions.c cunit_tests.c -o cunit_democode -l cunit
   - ./cunit_democode
   - size cunit_democode
