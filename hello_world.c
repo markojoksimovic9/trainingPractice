@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
-#include "hello_world.h"
+#include "hello_functions.h"
 
 int main(void) {
 
