@@ -30,7 +30,7 @@ float temp_sensor_converter(int temp_sensor_value, bool success) {
   
   printf("Temp sensor value %d is in the range of %d to %d, attempting conversion now...\n", temp_sensor_value, TEMP_SENSE_MIN, TEMP_SENSE_MAX);
   
-  float TEMP_SLOPE = (TEMP_C_MAX - TEMP_C_MIN)/(1.0 * (TEMP_SENSE_MAX - TEMP_SENSE_MIN);
+  float TEMP_SLOPE = (TEMP_C_MAX - TEMP_C_MIN)/(1.0 * (TEMP_SENSE_MAX - TEMP_SENSE_MIN));
   
   temp_celcius = TEMP_SLOPE * temp_sensor_value * TEMP_C_MIN;
   
